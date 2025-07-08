@@ -1,19 +1,15 @@
-<p> 
-    <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
-    <a href="{% url 'learning_logs:topics' %}">Topics</a> -
-    {% if user.is_authenticated %}
-    Hello, {{user.username}}.
-    {% else %}
-    <a href="{% url 'accounts:register' %}">Register</a>
-    <a href="{% url 'accounts:login' %}">Log in</a>
-    {% endif %}
-</p>
-{% block content %}{% endblock content %}
+<!doctype html>
+<html lang="en">
 
-{% if user.is_authenticated %}
-<hr />
-<form action="{% url 'accounts:logout' %}" method="post">
-    {% csrf_token %}
-    <button name="submit">Log out</button>
-</form>
-{% endif %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Learning Log</title>
+
+    {% load django_bootstrap5 %}
+    {% boostrap_css %}
+    {% bootsrap_javascript %}
+
+</head>
+
+</html>
