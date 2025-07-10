@@ -8,27 +8,27 @@ and log their learning activities. It allows users to organize their journal int
 different topics, which can then have different learning events associated with them.
 This project is based on *Python Crash Course* (3rd edition) [1].
 
-<img src="readme_resources\learning_log_preview.png" width="700"/>
+<img src="readme_resources\learning_log_preview.png" width="800"/>
 
 # 2- User Manual :page_facing_up:
 To sign up and create your own learning log:
 
 **1-** Sign up by creating an account
 
-<img src="readme_resources\user_registration.png" width="700"/>
+<img src="readme_resources\user_registration.png" width="800"/>
 
 **2-** View topics by clicking on "Topics" on the top left
 
-<img src="readme_resources\selecting_topics.png" width="700"/>
+<img src="readme_resources\selecting_topics.png" width="800"/>
 
 **3-** Log your learnings related to to a new topic by clicking on "Add a new topic"
 
-<img src="readme_resources\new_topic.png" width="700"/>
+<img src="readme_resources\new_topic.png" width="800"/>
 
 **4-** You can add new entries to each topic by selecting that topic and clicking 
 on "Add new entry". You can edit each entry by selecting "edit entry"
 
-<img src="readme_resources\adding_entries.gif" width="700"/>
+<img src="readme_resources\adding_entries.gif" width="800"/>
 
 **5-** You can logout and sign back in anytime you want!
 
