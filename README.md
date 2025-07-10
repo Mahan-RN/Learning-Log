@@ -45,7 +45,7 @@ the Django framework. Here I practiced and learned:
 - Practiced using template inheritance and Django’s built-in URL routing system
 - Learned the importance of regular commits and tracking changes
 
-## Reflection:
+## Reflections:
 I built this project following *Python Crash Course* [1] step-by-step guide. As a 
 computer science student, these are some things that I think can be improved
 and will increase the overall quality of the project:
